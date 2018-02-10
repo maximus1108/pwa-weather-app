@@ -328,6 +328,7 @@
    ************************************************************************/
 
   app.selectedCities = localStorage.selectedCities;
+  console.log(localStorage)
   if (app.selectedCities) {
     app.selectedCities = JSON.parse(app.selectedCities);
     app.selectedCities.forEach(function(city) {
@@ -346,7 +347,15 @@
     app.saveSelectedCities();
   }
 
-
-
   // TODO add service worker code here
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('./service-worker.js')
+             .then(function() { 
+               console.log('Service Worker Registered'); 
+              }, function(err){
+               console.log(err)
+             });
+  }
+
 })();

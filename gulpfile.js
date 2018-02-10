@@ -3,7 +3,7 @@ var watch = require('gulp-watch');
 var server = require('browser-sync').create();
 
 gulp.task('default', ['serve'], function(){
-  return watch("./dist/**/*.*").on('change', server.reload)
+//   /return watch("./dist/**/*.*").on('change', server.reload)
 
 })
 
