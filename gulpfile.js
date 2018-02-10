@@ -10,7 +10,7 @@ gulp.task('default', ['serve'], function(){
 gulp.task('serve', function(){
     server.init({
         server: {
-            baseDir: "./dist"
+            baseDir: "./src"
         }
     });
 })
