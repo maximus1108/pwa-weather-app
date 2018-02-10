@@ -1,0 +1,19 @@
+{
+  "name": "pwa-weather-app",
+  "version": "1.0.0",
+  "description": "Weather web app built using progressive web app techniques",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximus1108/pwa-weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximus1108/pwa-weather-app/issues"
+  },
+  "homepage": "https://github.com/maximus1108/pwa-weather-app#readme"
+}
